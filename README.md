@@ -166,10 +166,10 @@ python inference/benchmark.py --config configs/optimized.yaml
 cd src/task_b_amss
 source compile/setup_env.sh
 make -f compile/Makefile.asc26
-
+```
 # Submit job
 qsub jobs/gw150914_1000s.pbs
-```
+
 📫 Contact
 Team Zero Point, CQUPT
 
